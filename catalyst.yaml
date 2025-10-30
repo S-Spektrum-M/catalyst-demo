@@ -1,0 +1,19 @@
+meta:
+  min_ver: 1.0.0
+manifest:
+  name: catalyst-demo
+  type: BINARY
+  version: 0.1.0
+  description: A demonstration of the Catalyst build system.
+  provides: ""
+  tooling:
+    CC: clang
+    CXX: clang++
+    CCFLAGS: ""
+    CXXFLAGS: ""
+  dirs:
+    include:
+      - include
+    source:
+      - src
+    build: build
